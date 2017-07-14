@@ -72,5 +72,11 @@
     Centeralized -- put all files in a test folder
     Colocated -- with the real file
   6. When to run test: on every save
-      
 
+11. Continious Integration
+  * CI-Server: 
+    Run auto build on a different machine
+    Runs your tests
+    check code coverage, reject commit if undercovered
+    deploy automatically to server
+  * CIs in the market: Travis, Appveyor, Jenkins, circleCI, Semaphore, snapCI
