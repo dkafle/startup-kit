@@ -1,0 +1,76 @@
+1. Select JS Editor:  <VS Code>
+  * AutoComplete
+  * Parse ES6 Imports
+  * Report unused Imports
+  * Automated refactoring
+  * Built-in terminal
+
+  * EditorConfig for standardized config
+  
+2. Package Manger: <NPM>
+  * NPM package bit.ly/jsdevpackagejson
+  * JSPM
+
+3. Node: <v 6.6.0>
+  * nvm -- node version manager
+  * nsp -- npm packages security check
+
+4. Publish your work in progress
+  * localtunnel (easiest to do npm install localtunnel. $lt  )
+  * ngrok
+  * now -- quickly deploy ndoejs to the cloud.
+    npm install -g now
+    create start script
+    now
+  * surge 
+
+5. Automation
+  * grunt, gulp, npm scripts
+  * npm scripts
+    >
+
+6. JS Transpiler
+  * Babel: Transpiles all latest ES
+  * TypeScript: Superset of JS
+  * Elm
+
+7. Bundle
+  * Module Formats:
+    -- CommonJS, AMD, ES6 Module
+  * Bundler: RequireJS, browserify, webpack, rollup, jspm
+  * browserify: brings nodejs style imports on browser
+  * webpack: import css, images, js, hot-reloading
+  * rollup: tre eshaking, faster loading
+  * jspm: loads module in runtime, rollup
+
+8. webpack
+  * imports more than js, bundle splitting
+  * Tree shaking in Webpack2
+  
+9. SourceMap
+  * Maps code back to original source
+
+10. Linting
+  * ESLint
+    Decision to make:
+      eslintrc.js
+    eslint-watch to watch changes
+    
+11. Testing and CI/CD
+  * Tools to choose: 
+    1. Framework, 2. Assertion Library, 3. Helper Libraries, 4. Test env, 5. place to save test files, 6. when to run tests
+  1. Frameworks: Mocha (more configurable), Jasmine (includes assertion lib), Tape, Qunit, AVA, Jest
+  2 Assertion library: Chai (popular), shouldJS, expect
+  3 Helper Library: JSDOM
+    JSDOM -- simulate browser DOM, runs faster. 
+    Cheerio -- jQuery for the server query virtual dom uisng jQuery selectors
+  4. Test Env: Node
+    Karma -- uses browser to run test
+    PhantomJS -- headless browser
+    JSDOM -- in-memory DOM
+  5. Where to save files: Colocated
+    Centeralized -- put all files in a test folder
+    Colocated -- with the real file
+  6. When to run test: on every save
+      
+
