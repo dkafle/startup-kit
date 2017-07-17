@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 56078665,
+      "firstName": "Grayson",
+      "lastName": "Runolfsdottir",
+      "email": "Vida.Flatley@hotmail.com"
+    },
+    {
+      "id": 46538331,
+      "firstName": "Yesenia",
+      "lastName": "Mertz",
+      "email": "Enos.Will54@gmail.com"
+    },
+    {
+      "id": 20023940,
+      "firstName": "Marcelle",
+      "lastName": "Runolfsdottir",
+      "email": "Paul.Reilly25@yahoo.com"
+    },
+    {
+      "id": 48392090,
+      "firstName": "Alexys",
+      "lastName": "Anderson",
+      "email": "Libby.Oberbrunner@yahoo.com"
+    }
+  ]
+}
